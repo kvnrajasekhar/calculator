@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.display-bar{
+    padding: 1rem 4rem 1rem 4rem;
+    font-family:sans-serif;
+    font-weight: bolder;
+    text-align: right;
+}
+.btn{
+    padding: 2rem;
+    background-color: #bfd400;
+    border-radius: 10px;
+    font-family:sans-serif;
+    font-size: 14px; ;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:  #dde2a6;
+}
+.c-body{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: black;
+    height: 600px;
+    width: 319px;
+}
+.c-btn{
+    padding: 2rem;
+    background-color: rgb(173, 22, 22);
+    border-radius: 10px;
+    font-family:sans-serif;
+    width: 7rem;
+}
+.c-btn:hover{  
+    cursor: pointer;
+    background-color:  #dde2a6;
+}
+.eq-btn{
+    background-color: rgb(255, 128, 0);
+}
+.operator{
+    background-color: aquamarine;
+}
+.del-btn{
+    background-color: rgb(255, 122, 22)
+}
+ul{
+    float: top right;
+    place-content: top;
+}
